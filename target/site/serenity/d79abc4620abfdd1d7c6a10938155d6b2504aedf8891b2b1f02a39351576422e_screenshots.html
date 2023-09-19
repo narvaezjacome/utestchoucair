@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-09-2023 11:45</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-09-2023 08:49</span>
     <br style="clear:left"/>
 </div>
 
@@ -174,9 +174,9 @@ Para comenzar a utilizar los servicios disponibles.
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Crear un nuevo usuario en Utest.com
+                                <span class="error-color">Crear un nuevo usuario en Utest.com
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -197,24 +197,63 @@ Para comenzar a utilizar los servicios disponibles.
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: no such element: Unable to locate element: {'method':'xpath','selector':'//div[@id='mainContent']/div/div/div/div/h1'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.utest.stepdefinitions.RegistroDefinitions.validarRegistro(RegistroDefinitions.java:55)<br />✽.valido mi registro con el siguiente mensaje Welcome to the world's largest community of freelance software testers!(src/test/resources/features/register.feature:15)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1859131534606856926.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="ab2f66608726b36c2a6c3230fbb73b88fadf70c08fcf2fab0054446a2695a35e.png" title=" Example: {firstname=testname, lastname=testlasname, month=september, day=8, year=1990, languages=Spanish, createyourutestpassword=Pass123456789*/, confirmpassword=Pass123456789*/}" width="1920"/>
-                <img src="ab2f66608726b36c2a6c3230fbb73b88fadf70c08fcf2fab0054446a2695a35e.png" title=" Dado que Daniel esta en la p&aacute;gina de Utest.com" width="1920"/>
-                <img src="ab2f66608726b36c2a6c3230fbb73b88fadf70c08fcf2fab0054446a2695a35e.png" title=" Daniel navega a la url #opcion" width="1920"/>
-                <img src="ab2f66608726b36c2a6c3230fbb73b88fadf70c08fcf2fab0054446a2695a35e.png" title=" Daniel opens the Url" width="1920"/>
-                <img src="ab2f66608726b36c2a6c3230fbb73b88fadf70c08fcf2fab0054446a2695a35e.png" title=" Daniel navega a la url #opcion (completed)" width="1920"/>
-                <img src="ab2f66608726b36c2a6c3230fbb73b88fadf70c08fcf2fab0054446a2695a35e.png" title=" Dado que Daniel esta en la p&aacute;gina de Utest.com (completed)" width="1920"/>
-                <img src="b5411dc988382800e8179337950edb49c18f5bf786cacebbd3118404d86c61cc.png" title=" Cuando hago clic en la opci&oacute;n de registro JOIN TODAY" width="1920"/>
-                <img src="b5411dc988382800e8179337950edb49c18f5bf786cacebbd3118404d86c61cc.png" title=" Daniel registrar" width="1920"/>
-                <img src="b5411dc988382800e8179337950edb49c18f5bf786cacebbd3118404d86c61cc.png" title=" Daniel clicks on CLICK_BUTTON_JOIN_TODAY " width="1920"/>
-                <img src="b5411dc988382800e8179337950edb49c18f5bf786cacebbd3118404d86c61cc.png" title=" Daniel registrar (completed)" width="1920"/>
-                <img src="b5411dc988382800e8179337950edb49c18f5bf786cacebbd3118404d86c61cc.png" title=" Cuando hago clic en la opci&oacute;n de registro JOIN TODAY (completed)" width="1920"/>
-                <img src="af6bd7641c32d8edc5fb1cadbeaf551df41e7284648366ebd5d322981ed4c767.png" title=" Y diligencio el formulario para crear un nuevo usuario
+                <img src="371e541663d9db0a12805bff489eaa20493ef49204684f4fd772ea4cb02f6d6a.png" title=" Example: {firstname=testname, lastname=testlasname, month=september, day=8, year=1990, languages=Spanish, createyourutestpassword=Pass123456789*/, confirmpassword=Pass123456789*/}" width="1920"/>
+                <img src="371e541663d9db0a12805bff489eaa20493ef49204684f4fd772ea4cb02f6d6a.png" title=" Dado que Daniel esta en la p&aacute;gina de Utest.com" width="1920"/>
+                <img src="371e541663d9db0a12805bff489eaa20493ef49204684f4fd772ea4cb02f6d6a.png" title=" Daniel navega a la url #opcion" width="1920"/>
+                <img src="371e541663d9db0a12805bff489eaa20493ef49204684f4fd772ea4cb02f6d6a.png" title=" Daniel opens the Url" width="1920"/>
+                <img src="371e541663d9db0a12805bff489eaa20493ef49204684f4fd772ea4cb02f6d6a.png" title=" Daniel navega a la url #opcion (completed)" width="1920"/>
+                <img src="371e541663d9db0a12805bff489eaa20493ef49204684f4fd772ea4cb02f6d6a.png" title=" Dado que Daniel esta en la p&aacute;gina de Utest.com (completed)" width="1920"/>
+                <img src="c43df774341b9631807f10abce8a327cc450950ef8d3b6bfb7365899f983ff67.png" title=" Cuando hago clic en la opci&oacute;n de registro JOIN TODAY" width="1920"/>
+                <img src="c43df774341b9631807f10abce8a327cc450950ef8d3b6bfb7365899f983ff67.png" title=" Daniel registrar" width="1920"/>
+                <img src="c43df774341b9631807f10abce8a327cc450950ef8d3b6bfb7365899f983ff67.png" title=" Daniel clicks on CLICK_BUTTON_JOIN_TODAY " width="1920"/>
+                <img src="c43df774341b9631807f10abce8a327cc450950ef8d3b6bfb7365899f983ff67.png" title=" Daniel registrar (completed)" width="1920"/>
+                <img src="c43df774341b9631807f10abce8a327cc450950ef8d3b6bfb7365899f983ff67.png" title=" Cuando hago clic en la opci&oacute;n de registro JOIN TODAY (completed)" width="1920"/>
+                <img src="8f62c35be6567236ab527b7d2f108ee6b951b76456fe92feb929ac386446c6eb.png" title=" Y diligencio el formulario para crear un nuevo usuario
 | firstname | lastname | month | day | year | languages | createyourutestpassword | confirmpassword |
 | testname | testlasname | september | 8 | 1990 | Spanish | Pass123456789*/ | Pass123456789*/ |" width="1920"/>
-                <img src="af6bd7641c32d8edc5fb1cadbeaf551df41e7284648366ebd5d322981ed4c767.png" title=" Daniel diligenciamiento registro" width="1920"/>
-                <img src="af6bd7641c32d8edc5fb1cadbeaf551df41e7284648366ebd5d322981ed4c767.png" title=" Daniel clicks on CLICK_NAME " width="1920"/>
+                <img src="8f62c35be6567236ab527b7d2f108ee6b951b76456fe92feb929ac386446c6eb.png" title=" Daniel diligenciamiento registro" width="1920"/>
+                <img src="8f62c35be6567236ab527b7d2f108ee6b951b76456fe92feb929ac386446c6eb.png" title=" Daniel clicks on CLICK_NAME " width="1920"/>
                 <img src="a613379c76abd8fd5980e3c194617de53aa77f5cd5fd84ae1419e6597af2d389.png" title=" Daniel clicks on TXT_NAME " width="1920"/>
                 <img src="2a7b61dbac26fce5e0af8912a9e69c1aed4acdb485d78bebcb21e1c46a2c9bf7.png" title=" Daniel enters 'testname' into TXT_NAME " width="1920"/>
                 <img src="e3244142af74a429601cc01c89fc61fbc67b8a01af4eab65c5af5eebc237d998.png" title=" Daniel clicks on CLICK_LASTNAME " width="1920"/>
@@ -222,34 +261,32 @@ Para comenzar a utilizar los servicios disponibles.
                 <img src="bae8815836b8d20c9e9dd9d4a8f24470aac6abef2baa65627cf01d3adf8f1c08.png" title=" Daniel enters 'testlasname' into TXT_LASTNAME " width="1920"/>
                 <img src="cd9f93082738cc1e2c3669da808b4b506021898d2b407ad1d76c3d130cf77dc8.png" title=" Daniel clicks on CLICK_EMAIL " width="1920"/>
                 <img src="548554806e28d12d375e2a1296bf39054399d04ea83931d9d817c6385f9252e8.png" title=" Daniel clicks on TXT_EMAIL " width="1920"/>
-                <img src="536515b2d770eb74df3739e9b7fc2845fd266b6a99a352a94e341e0386cdf74a.png" title=" Daniel enters 'mae.kassulke@yahoo.com' into TXT_EMAIL " width="1920"/>
-                <img src="f4241bb27d2d79ef2c0e2ba53f4028464ba322b0d0e455aa6d8c016859f39133.png" title=" Daniel clicks on TXT_MONTH " width="1920"/>
-                <img src="c9ba652fdae0d91155251a76e17363ee62aef6be9abbc3e9ccabe43e437e8076.png" title=" Daniel clicks on CLICK_DAY " width="1920"/>
-                <img src="f832c2b0fb87e577dea4c9dbb1f2ce0e708782f9bf567c2d8516eb7a19cfad6c.png" title=" Daniel clicks on CLICK_YEAR " width="1920"/>
-                <img src="4030d1c7abbd389434356d628b2fac6ce41421623d235d6e4f13e84576248a91.png" title=" Daniel clicks on CLICK_LANGUAGES " width="1920"/>
-                <img src="d5948406c6a8acbb8d36e9c2885d83e2f9be9bdfa33acf3f202efd993773b9f5.png" title=" Daniel clicks on TXT_LANGUAGES " width="1920"/>
-                <img src="31b0586107db5460bcd6ec331864b48eb14a99d57312cdc4a087f675ead98db1.png" title=" Daniel enters 'Spanish' into TXT_LANGUAGES " width="1920"/>
+                <img src="382925a19a14b9ec7628019fef6300913b2c016ac3474fdcd4cd2965e7b81293.png" title=" Daniel enters 'ronny.kunze@hotmail.com' into TXT_EMAIL " width="1920"/>
+                <img src="ba682855807fe6809aa45bddc3a8fb943eb84a635ba54a7ee5f3af39c2dbf384.png" title=" Daniel clicks on TXT_MONTH " width="1920"/>
+                <img src="5fbd44a1b6618ff27b53b3759c4d477c268e4f96da8d42cff896975219fe0446.png" title=" Daniel clicks on CLICK_DAY " width="1920"/>
+                <img src="36bc4d6a0ace83848bd7fe9d9b9e57b7d010317c8e28b9d2a6755d4de36194ab.png" title=" Daniel clicks on CLICK_YEAR " width="1920"/>
+                <img src="551032d7b9d4ff5ed4f52bc14021c48bebb2d74dcf5ad6f2862b1fca05776881.png" title=" Daniel clicks on CLICK_LANGUAGES " width="1920"/>
+                <img src="c16ac1d5e61853b67befd70bd828b26e0fac5ac58d2230f5d0279cf7a27f6627.png" title=" Daniel clicks on TXT_LANGUAGES " width="1920"/>
+                <img src="600d434ee69fc534aef5b9bfa61e0cd932198b9427a50025eea42a99115c87b9.png" title=" Daniel enters 'Spanish' into TXT_LANGUAGES " width="1920"/>
                 <img src="15362c9bc89d50c12186501e29f6fdb2cb1d8e8af6de46a51e6ed0f905c5058a.png" title=" Daniel clicks on CLICK_BUTTON_NEXTLOCATION " width="1920"/>
-                <img src="6d08016cbc17091090b07d8614d9119bf6d5a42e684287939f8fc66018366dc0.png" title=" Daniel clicks on CLICK_COUNTRY " width="1920"/>
-                <img src="783789138149c3431fd1160835f2f12da238b95e56f9643eddc16c588f6d5cb6.png" title=" Daniel clicks on CLICK_COUNTRY " width="1920"/>
+                <img src="32abceb1043c9ca0c392bbc8ca8e2c5eeda59234f140a3827e2df1cbaa9a9693.png" title=" Daniel clicks on CLICK_COUNTRY " width="1920"/>
+                <img src="72a86a4689126f87916c274b2aa10568a7faaa15b2ed2ff8a8a1f3366b31da8e.png" title=" Daniel clicks on CLICK_COUNTRY " width="1920"/>
                 <img src="8f6a81e65a0a66cf22defb10632bd4ea91a4d6f4e10a2b40ff11672a752e728f.png" title=" Daniel clicks on CLICK_BUTTON_NEXTDEVICES " width="1920"/>
                 <img src="59a2a4596b70965c42638c63231be1a8ccdc122f17d0ae2e5207b3d5012b1046.png" title=" Daniel clicks on CLICK_BUTTON_NEXTLASTSTEP " width="1920"/>
-                <img src="3e4438f56c0df08bd843210d3cffc069c9f625454081070f76a0a26dca2d0ce8.png" title=" Daniel clicks on CLICK_NEWPASSWORD " width="1920"/>
-                <img src="652b9e20cc090cb79b9d3a0fdec4be2a5dfe44bd0a8bd2b25cab7d87d0c925da.png" title=" Daniel enters 'Pass123456789*/' into CLICK_NEWPASSWORD " width="1920"/>
-                <img src="191a3f67d4454dab802f72cbd7d92042b3bc242f9f9c7ec9802ea2202dedf102.png" title=" Daniel clicks on CLICK_CONFIRMPASSWORD " width="1920"/>
+                <img src="9518fbc9d8779b8f3ff4a5624d992e93e75fdab5fe47b7772e4b20f462639f67.png" title=" Daniel clicks on CLICK_NEWPASSWORD " width="1920"/>
+                <img src="b9c3316b1c5dae4a38d97b3518904d1f4e54b2134bdcbf30fb8e0c256498a9fe.png" title=" Daniel enters 'Pass123456789*/' into CLICK_NEWPASSWORD " width="1920"/>
+                <img src="c6ba2d982c2853e84411b685ddb5cd4532d7b852ac408c228daf6079265e222f.png" title=" Daniel clicks on CLICK_CONFIRMPASSWORD " width="1920"/>
                 <img src="f3ad181d19a01d3343bd97ab402ca58e0c5be9f024a4df1a3db69d03e77e5881.png" title=" Daniel enters 'Pass123456789*/' into CLICK_CONFIRMPASSWORD " width="1920"/>
                 <img src="952429874db6e745fcd9f0b28dbb03b4267f5a8b2c189b5829b096147ae7c341.png" title=" Daniel clicks on CLICK_CHECK_OPTIONAL " width="1920"/>
                 <img src="04cf7ede63f38203a2b51a9d1dc8484c39a6a5c53314b1ec5b42c8f720dac7ff.png" title=" Daniel clicks on CLICK_CHECK_TERMS " width="1920"/>
                 <img src="9af350a36d1610f794c2dc762887d7b96d7978708599829a379ffb18ae812bf1.png" title=" Daniel clicks on CLICK_CHECK_PRIVACY " width="1920"/>
-                <img src="7a34b589cd6fb7def74ede0c81d97287d67080ef6f910f6ded08b36b91a06c53.png" title=" Daniel clicks on CLICK_BUTTON_COMPLETESETUP " width="1920"/>
-                <img src="7a34b589cd6fb7def74ede0c81d97287d67080ef6f910f6ded08b36b91a06c53.png" title=" Y diligencio el formulario para crear un nuevo usuario
+                <img src="371d2fd048ed9e173fd5cdb6e2a77d5fc46f4fd8e1d7e3b57fad93f3612ad720.png" title=" Daniel clicks on CLICK_BUTTON_COMPLETESETUP " width="1920"/>
+                <img src="371d2fd048ed9e173fd5cdb6e2a77d5fc46f4fd8e1d7e3b57fad93f3612ad720.png" title=" Daniel diligenciamiento registro (completed)" width="1920"/>
+                <img src="371d2fd048ed9e173fd5cdb6e2a77d5fc46f4fd8e1d7e3b57fad93f3612ad720.png" title=" Y diligencio el formulario para crear un nuevo usuario
 | firstname | lastname | month | day | year | languages | createyourutestpassword | confirmpassword |
-| testname | testlasname | september | 8 | 1990 | Spanish | Pass123456789*/ | Pass123456789*/ |" width="1920"/>
-                <img src="7a34b589cd6fb7def74ede0c81d97287d67080ef6f910f6ded08b36b91a06c53.png" title=" Daniel diligenciamiento registro (completed)" width="1920"/>
-                <img src="34716e28e026badb66de87ed825310f7cf8315bd367c03bef8580d20ff60b8d3.png" title=" Entonces valido mi registro con el siguiente mensaje Welcome to the world's largest community of freelance software testers!" width="1920"/>
-                <img src="34716e28e026badb66de87ed825310f7cf8315bd367c03bef8580d20ff60b8d3.png" title=" Then validar registro should be 'Welcome to the world's largest community of freelance software testers!'" width="1920"/>
-                <img src="34716e28e026badb66de87ed825310f7cf8315bd367c03bef8580d20ff60b8d3.png" title=" Example: {firstname=testname, lastname=testlasname, month=september, day=8, year=1990, languages=Spanish, createyourutestpassword=Pass123456789*/, confirmpassword=Pass123456789*/}" width="1920"/>
-                <img src="34716e28e026badb66de87ed825310f7cf8315bd367c03bef8580d20ff60b8d3.png" title=" Entonces valido mi registro con el siguiente mensaje Welcome to the world's largest community of freelance software testers! (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+| testname | testlasname | september | 8 | 1990 | Spanish | Pass123456789*/ | Pass123456789*/ | (completed)" width="1920"/>
+                <img src="88ba8993ee27047700b799a0a5822d88fc067b81c47bceff072fdee75c9f30b0.png" title=" Entonces valido mi registro con el siguiente mensaje Welcome to the world's largest community of freelance software testers!" width="1920"/>
+                <img src="88ba8993ee27047700b799a0a5822d88fc067b81c47bceff072fdee75c9f30b0.png" title=" Then validar registro should be 'Welcome to the world's largest community of freelance software testers!': <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 
